@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B65656E621BA877100CA6D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65656E321BA863900CA6D27 /* Main.storyboard */; };
 		B65656E921BA895C00CA6D27 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65656E721BA895C00CA6D27 /* Home.storyboard */; };
-		B65656ED21BA89E000CA6D27 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = B65656EC21BA89E000CA6D27 /* Classes */; };
 		B696B68521BA59D500A1EB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B696B68421BA59D500A1EB62 /* AppDelegate.swift */; };
 		B696B68C21BA59D800A1EB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B696B68B21BA59D800A1EB62 /* Assets.xcassets */; };
 		B696B68F21BA59D800A1EB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B696B68D21BA59D800A1EB62 /* LaunchScreen.storyboard */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		B65656E421BA863900CA6D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B65656E821BA895C00CA6D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = douyizb/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		B65656EC21BA89E000CA6D27 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		B696B68121BA59D500A1EB62 /* douyizb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyizb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B696B68421BA59D500A1EB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B696B68B21BA59D800A1EB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,10 +74,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B696B67821BA59D400A1EB62 = {
+		B65656EE21BA8BD100CA6D27 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B65656EF21BA8BD100CA6D27 /* Home */,
+				B65656F021BA8BD100CA6D27 /* Tools */,
+				B65656F121BA8BD100CA6D27 /* Follow */,
+				B65656F221BA8BD100CA6D27 /* Profile */,
+				B65656F321BA8BD100CA6D27 /* Live */,
+				B65656F421BA8BD100CA6D27 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B65656EF21BA8BD100CA6D27 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				B65656E721BA895C00CA6D27 /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B65656F021BA8BD100CA6D27 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B65656F121BA8BD100CA6D27 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		B65656F221BA8BD100CA6D27 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B65656F321BA8BD100CA6D27 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		B65656F421BA8BD100CA6D27 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B65656E321BA863900CA6D27 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B696B67821BA59D400A1EB62 = {
+			isa = PBXGroup;
+			children = (
 				B696B68321BA59D500A1EB62 /* douyizb */,
 				B696B69821BA59D900A1EB62 /* douyizbTests */,
 				B696B6A321BA59D900A1EB62 /* douyizbUITests */,
@@ -100,9 +154,8 @@
 		B696B68321BA59D500A1EB62 /* douyizb */ = {
 			isa = PBXGroup;
 			children = (
-				B65656EC21BA89E000CA6D27 /* Classes */,
+				B65656EE21BA8BD100CA6D27 /* Classes */,
 				B696B68421BA59D500A1EB62 /* AppDelegate.swift */,
-				B65656E321BA863900CA6D27 /* Main.storyboard */,
 				B696B68B21BA59D800A1EB62 /* Assets.xcassets */,
 				B696B68D21BA59D800A1EB62 /* LaunchScreen.storyboard */,
 				B696B69021BA59D800A1EB62 /* Info.plist */,
@@ -234,7 +287,6 @@
 			files = (
 				B65656E621BA877100CA6D27 /* Main.storyboard in Resources */,
 				B65656E921BA895C00CA6D27 /* Home.storyboard in Resources */,
-				B65656ED21BA89E000CA6D27 /* Classes in Resources */,
 				B696B68F21BA59D800A1EB62 /* LaunchScreen.storyboard in Resources */,
 				B696B68C21BA59D800A1EB62 /* Assets.xcassets in Resources */,
 			);
